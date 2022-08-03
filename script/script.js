@@ -109,10 +109,10 @@ function divValue() {
     answer = fn / sn;
 
     // creating the text output
-    txtoutput = `${fn} / ${sn}  = ` + answer;
+    txtoutput = `${fn} / ${sn}  = ` + answer.toFixed(2);
 
     // (if you want to check) print out in console
-    console.log(`${fn} / ${sn} + = ` + answer)
+    console.log(`${fn} / ${sn} + = ` + answer.toFixed(2))
 
     // change the text area 
     document.mycalculator.output.value = txtoutput;
