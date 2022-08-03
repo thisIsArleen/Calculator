@@ -1,0 +1,25 @@
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   height: 100%;
+}
+
+body{
+width:55%;
+margin-left: 30%;
+}
+
+input{
+    margin: 5px 0;
+}
+fieldset{
+    width: 220px;
+    padding: 10px 20px;
+    background-color:lightsteelblue;
+    margin-bottom: 10px;
+}
+
+legend{
+    background-color: slategray;
+    padding: 0 10px;
+    color: whitesmoke;
+}
